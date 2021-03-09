@@ -104,7 +104,7 @@ Acesse a pasta bin e copie o **path** dessa pasta.
 
 Exemplo: **C:\Users\Gladson\Documents\sonar-scanner-4.6.0.2311-windows\bin**
 
-O próximo passo e adicionar este path na variável de ambiente **PATH** de sua máquina.
+O próximo passo é adicionar este path na variável de ambiente **PATH** de sua máquina.
 
 Neste material daremos um exemplo de como realizar isso utilizando windows, caso esteja fazer isso no linux utilize este [artigo](https://linuxize.com/post/how-to-add-directory-to-path-in-linux/) como referência.
 
