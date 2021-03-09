@@ -116,7 +116,7 @@ Clique em **Editar as variáveis de ambiente do sistema**
 
 Em seguida clique em **Variáveis de Ambiente**
 
-<img src="./imagens/13.PNG" style="float:left"/>
+<img src="./imagens/13.png" style="float:left"/>
 
 Localize a variável **Path** e clique em **editar**
 
@@ -130,7 +130,7 @@ Com isso feito abra um novo terminal e acesse a pasta raiz do projeto **Javascri
 
 Acesse novamente a página do Sonar Qube onde estávamos configurando o novo projeto e copie o script indicado pelo Sonar Qube conforme o exemplo abaixo:
 
-<img src="./imagens/15.PNG" style="float:left"/>
+<img src="./imagens/15.png" style="float:left"/>
 
 O comando gerado pelo Sonar Qube basicamente irá utilizar o Scanner que configuramos nos passos anteriores com alguns parâmetros.
 
