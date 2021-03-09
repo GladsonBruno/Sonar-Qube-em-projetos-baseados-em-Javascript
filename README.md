@@ -1,6 +1,6 @@
 ## Introdução
 
-Abordaremos aqui como realizar a análise de código Sonar Qube para projetos baseados em Javascript.
+Abordaremos aqui como realizar a análise de código com Sonar Qube para projetos baseados em Javascript.
 
 Consideraremos aqui que você já possui conhecimento básico sobre os fundamentos do Sonar Qube.
 
@@ -34,7 +34,7 @@ Em seguida clique em **Create new project** conforme o exemplo abaixo:
 
 Em seguida você será redirecionado para este tela:
 
-<img src="./imagens/3.png" style="float:left"/>
+<img src="./imagens/3.PNG" style="float:left"/>
 
 
 
@@ -52,13 +52,13 @@ Exemplo: **APP Exemplo**
 
 Após preencher os 2 campos clique no botão **Set Up** e você será direcionado para esta tela:
 
-<img src="./imagens/4.png" style="float:left"/>
+<img src="./imagens/4.PNG" style="float:left"/>
 
 
 
 Observe que o Sonar Qube pede para que você gere um novo token ou utilize um existente:
 
-<img src="./imagens/5.png" style="float:left"/>
+<img src="./imagens/5.PNG" style="float:left"/>
 
 Neste exemplo iremos gerar um novo token com base em um texto.
 
@@ -66,17 +66,17 @@ Utilizarei nesse exemplo o texto **APP Exemplo**
 
 Após definir o texto para o token clique em **Generate** e você verá algo semelhante a isso:
 
-<img src="./imagens/6.png" style="float:left"/>
+<img src="./imagens/6.PNG" style="float:left"/>
 
 Clique em **Continue** para seguir para o próximo passo.
 
-<img src="./imagens/7.png" style="float:left"/>
+<img src="./imagens/7.PNG" style="float:left"/>
 
 O segundo passo irá pedir que você informa linguagem a ser analisada, escolha a terceira opção (**Other(JS, TS, GO, Python, PHP, ...)**)
 
 
 
-<img src="./imagens/8.png" style="float:left"/>
+<img src="./imagens/8.PNG" style="float:left"/>
 
 Em seguida selecione o sistema operacional de sua máquina.
 
@@ -84,11 +84,11 @@ Você verá uma tela semelhante a esta dizendo que você deve realizar o downloa
 
 Observe também que o logo abaixo do botão **Download** o Sonar Qube gera um script para executarmos posteriormente.
 
-<img src="./imagens/9.png" style="float:left"/>
+<img src="./imagens/9.PNG" style="float:left"/>
 
 Clique em **Download**, em seguida você será direcionado para esta página:
 
-<img src="./imagens/10.png" style="float:left"/>
+<img src="./imagens/10.PNG" style="float:left"/>
 
 Em seguida clique na versão que mais se adequa ao seu sistema Operacional, como por exemplo **Windows-64-bit**.
 
@@ -98,7 +98,7 @@ O próximo passo é extrair o conteúdo do arquivo .zip para algum diretório de
 
 Você verá uma estrutura de diretórios semelhante a esta:
 
-<img src="./imagens/11.png" style="float:left"/>
+<img src="./imagens/11.PNG" style="float:left"/>
 
 Acesse a pasta bin e copie o **path** dessa pasta.
 
@@ -116,11 +116,11 @@ Clique em **Editar as variáveis de ambiente do sistema**
 
 Em seguida clique em **Variáveis de Ambiente**
 
-<img src="./imagens/13.png" style="float:left"/>
+<img src="./imagens/13.PNG" style="float:left"/>
 
 Localize a variável **Path** e clique em **editar**
 
-<img src="./imagens/14.png" style="float:left"/>
+<img src="./imagens/14.PNG" style="float:left"/>
 
 Em seguida clique em novo e cole o **path** que copiamos da pasta **bin**.
 
@@ -130,7 +130,7 @@ Com isso feito abra um novo terminal e acesse a pasta raiz do projeto **Javascri
 
 Acesse novamente a página do Sonar Qube onde estávamos configurando o novo projeto e copie o script indicado pelo Sonar Qube conforme o exemplo abaixo:
 
-<img src="./imagens/15.png" style="float:left"/>
+<img src="./imagens/15.PNG" style="float:left"/>
 
 O comando gerado pelo Sonar Qube basicamente irá utilizar o Scanner que configuramos nos passos anteriores com alguns parâmetros.
 
@@ -149,7 +149,7 @@ Com o comando copiado volte para o terminal que foi aberto na pasta do projeto a
 
 Você verá algo semelhante a isso:
 
-<img src="./imagens/16.png" style="float:left"/>
+<img src="./imagens/16.PNG" style="float:left"/>
 
 Agora aguarde a execução do comando ser finalizada.
 
@@ -157,6 +157,6 @@ Quando a execução do comando for finalizada volte a página onde estávamos co
 
 Note que agora o nosso projeto já está corretamente configurado.
 
-<img src="./imagens/17.png" style="float:left"/>
+<img src="./imagens/17.PNG" style="float:left"/>
 
 Para realizar uma nova análise de código no mesmo projeto basta executar o comando gerado pelo Sonar Qube novamente na pasta raiz do projeto.
