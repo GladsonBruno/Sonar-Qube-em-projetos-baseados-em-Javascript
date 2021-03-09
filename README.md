@@ -122,11 +122,11 @@ Localize a variável **Path** e clique em **editar**
 
 <img src="./imagens/14.PNG" style="float:left"/>
 
-Em seguida clique em novo e cole o **path** que copiamos da pasta **bin**.
+Em seguida clique em novo e cole o **path** que copiamos.
 
 Após isso clique em **ok** até fechar todas as abas abertas referentes a variáveis de ambiente.
 
-Com isso feito abra um novo terminal e acesse a pasta raiz do projeto **Javascript**.
+Com isso feito abra um novo terminal e acesse a pasta raiz do seu projeto.
 
 Acesse novamente a página do Sonar Qube onde estávamos configurando o novo projeto e copie o script indicado pelo Sonar Qube conforme o exemplo abaixo:
 
@@ -137,7 +137,7 @@ O comando gerado pelo Sonar Qube basicamente irá utilizar o Scanner que configu
 Explicaremos brevemente o funcionamento de cada um dos parâmetros do comando gerado abaixo:
 
 * **-D"sonar.projectKey=chave-projeto"**: Este parâmetro informa ao Sonar a chave de um novo projeto, em nosso caso a chave que criamos foi a chave **app-exemplo**
-* **-D"sonar.sources=." **: Este parâmetro indica para o Sonar que o diretório atual contém o código a ser analisado pelo Sonar Qube.
+* <b>-D"sonar.sources=."</b>: Este parâmetro indica para o Sonar que o diretório atual contém o código a ser analisado pelo Sonar Qube.
 * **-D"sonar.host.url=http://localhost:9000"**: Indica a url de acesso ao Sonar Qube para o endereço **http://localhost:9000**
 * **-D"sonar.login=token"**: Este parâmetro contém o token de acesso ao projeto que foi gerado em etapas anteriores.
 
