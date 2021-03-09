@@ -4,7 +4,7 @@ Abordaremos aqui como realizar a análise de código com Sonar Qube para projeto
 
 Consideraremos aqui que você já possui conhecimento básico sobre os fundamentos do Sonar Qube.
 
-Caso deseje rever o conteúdo detalhado sobre os fundamentos e conceitos básicos do Sonar Qube consulte este [link](https://github.com/GladsonBruno/SonarQube).
+Caso deseje rever o conteúdo detalhado sobre os fundamentos e conceitos básicos do Sonar Qube consulte este <a href="https://github.com/GladsonBruno/SonarQube" target="_blank">link</a>.
 
 
 
@@ -12,7 +12,7 @@ Caso deseje rever o conteúdo detalhado sobre os fundamentos e conceitos básico
 
 Possuir o Sonar Qube instalado e em execução.
 
-Possuir o [NodeJS](https://nodejs.org/en/) instalado.
+Possuir o <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> instalado.
 
 Possuir o código fonte de uma aplicação baseada em Javascript.
 
